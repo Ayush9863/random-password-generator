@@ -3,26 +3,32 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>Generate a</h1>
-        <h2>random password</h2>
-        <p class="line">Never use an insecure password again.</p>
-        <input type="number" id="length" placeholder="Enter length">
-        <label>
-        <input type="checkbox" id="uppercase" >Uppercase
-        </label>
-        <label>
-        <input type="checkbox" id="lowercase" >Lowercase
-        </label>
-        <label>
-        <input type="checkbox" id="numbers" >Numbers
-        </label>
-        <label>
-        <input type="checkbox" id="symbols" >Symbols
-        </label>
-        <button class="generate" onclick="run()">Generate passwords</button>
-        <div class="pass">
-            <p id="pass_1" onclick="copy_1()">Suggeted Password 1</p>
-            <p id="pass_2" onclick="copy_2()">Suggeted Password 2</p>
+        <div class="container">
+            <h1>Generate a</h1>
+            <h2>random password</h2>
+            <p class="line">Never use an insecure password again.</p>
+            <div class="input">
+                <input type="number" id="length" placeholder="Enter length">
+                <label>
+                <input type="checkbox" id="uppercase" >Uppercase
+                </label>
+                <label>
+                <input type="checkbox" id="lowercase" >Lowercase
+                </label>
+                <label>
+                <input type="checkbox" id="numbers" >Numbers
+                </label>
+                <label>
+                <input type="checkbox" id="symbols" >Symbols
+                </label>
+            </div>
+            <button class="generate" onclick="run()">Generate passwords</button>
+        
+
+            <div class="pass">
+                <p id="pass_1" onclick="copy_1()">Suggeted Password 1</p>
+                <p id="pass_2" onclick="copy_2()">Suggeted Password 2</p>
+            </div>
         </div>
         <script src="index.js"></script>
     </body>
