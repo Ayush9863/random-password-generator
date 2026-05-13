@@ -28,7 +28,6 @@ h2{
     min-width: 70px;
     min-height: 14px;
 }
-/* jab tak koi password nahi hai==>toh box nhi dikhega even empty content ka chhota sa box bhi nhi dikhega */
 .pass p:empty{
     display:none
 }
