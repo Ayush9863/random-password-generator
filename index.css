@@ -1,13 +1,19 @@
 body{
     font-family: 'Inter', sans-serif;
-    background: #1F2937;
     color: white;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 h2{
    color: #4ADF86;
 }
 .line{
-    color:lightskyblue;
+    color:black;
 }
 .generate {
     background-color: #947ac5;
@@ -46,4 +52,7 @@ h2{
 label{
     margin-top: 10px;
     display: block;
+}
+.input{
+    color: black;
 }
