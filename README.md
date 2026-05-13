@@ -1,10 +1,10 @@
-# Random Password Generator 🔐
+# Random Password Generator 
 
-**🌐 Live Demo:** [randompassword-generator.netlify.app](https://randompassword-generator.netlify.app)
+** Live Demo:** [random-pass-creator.netlify.app](https://random-pass-creator.netlify.app)
 
 A sleek and interactive web application designed to generate secure, random passwords. Users can customize the length and choose specific character types to meet their security needs.
 
-## Features ✨
+## Features 
 * **Custom Length:** Define exactly how long your password needs to be.
 * **Character Toggles:** Mix and match character types:
   * Uppercase letters (A-Z)
@@ -15,12 +15,12 @@ A sleek and interactive web application designed to generate secure, random pass
 * **One-Click Copy:** Easily copy the generated password to your clipboard with a native browser alert confirmation.
 * **Input Validation:** Prevents generation if no length or character type is selected.
 
-## Tech Stack 💻
-* HTML5
-* CSS3
-* Vanilla JavaScript
+## Tech Stack 
+* HTML
+* CSS
+* JavaScript
 
-## Try It Out 🚀
+## Try It Out 
 1. Visit the [Live Demo](https://randompassword-generator.netlify.app) or clone this repository to run it locally.
 2. Enter your desired password length.
 3. Select the checkboxes for the characters you want to include.
