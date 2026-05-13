@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Generate a</h1>
+        <h2>random password</h2>
+        <p class="line">Never use an insecure password again.</p>
+        <input type="number" id="length" placeholder="Enter length">
+        <!-- input type agar text/number ho toh text placeholder se aata hai lekin
+             checkbox mein text nhi hota isliye text ke liye <label> kla use karte hai -->
+        <label>
+        <input type="checkbox" id="uppercase" >Uppercase
+        </label>
+        <label>
+        <input type="checkbox" id="lowercase" >Lowercase
+        </label>
+        <!-- <label> ek text hota hai jo kisi input(checkbox,input box) se link hota hai -->
+        <label>
+        <input type="checkbox" id="numbers" >Numbers
+        </label>
+        <label>
+        <input type="checkbox" id="symbols" >Symbols
+        </label>
+        <!-- Checkbox system hota kya hai?
+             Checkbox = ek option jo ON/OFF hota hai
+            ==> Checked = ON (true)
+            ==> Unchecked = OFF (false) 
+ -->
+        <button class="generate" onclick="run()">Generate passwords</button>
+        <div class="pass">
+            <p id="pass_1" onclick="copy_1()">Suggeted Password 1</p>
+            <p id="pass_2" onclick="copy_2()">Suggeted Password 2</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
